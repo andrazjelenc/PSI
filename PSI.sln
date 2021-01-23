@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSI", "PSI\PSI.csproj", "{A051346D-2182-4D9B-8F4D-7CD25DC7355C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A051346D-2182-4D9B-8F4D-7CD25DC7355C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A051346D-2182-4D9B-8F4D-7CD25DC7355C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A051346D-2182-4D9B-8F4D-7CD25DC7355C}.Debug|x64.ActiveCfg = Debug|x64
+		{A051346D-2182-4D9B-8F4D-7CD25DC7355C}.Debug|x64.Build.0 = Debug|x64
+		{A051346D-2182-4D9B-8F4D-7CD25DC7355C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A051346D-2182-4D9B-8F4D-7CD25DC7355C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A051346D-2182-4D9B-8F4D-7CD25DC7355C}.Release|x64.ActiveCfg = Release|x64
+		{A051346D-2182-4D9B-8F4D-7CD25DC7355C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F260A6AA-F317-4B30-B28D-396636D9C76A}
+	EndGlobalSection
+EndGlobal
