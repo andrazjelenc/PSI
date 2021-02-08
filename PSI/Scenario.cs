@@ -102,7 +102,7 @@ namespace PSI
                         tmpEncrypted[j] = new Ciphertext();
                         evaluator.SubPlain(xEncrypted, ysPlain[j], tmpEncrypted[j]);
                     }
-                    using var plainRandomText = new Plaintext(rnd.Next(1, plainModulusValue).ToString());
+                    using var plainRandomText = new Plaintext(rnd.Next(1, plainModulusValue).ToString("X"));
 
                     using var resultEncrypted = new Ciphertext();
                     evaluator.MultiplyMany(tmpEncrypted, relinKeys, resultEncrypted);
